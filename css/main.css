@@ -10,13 +10,27 @@ header{
 	padding: 0;
 	margin: 0;
 	font-family: 'Sigmar One', cursive;
-	text-align: center;
 	color: #9f0325;
+}
+
+h1{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+nav li{
+	display: inline-block;
+
 }
 
 ol{
 	list-style-type: none;
 	line-height: 1.5;
+	text-align: center;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
 }
 
 nav a{
@@ -24,7 +38,9 @@ nav a{
 	padding: 0.5em 0.75em;
 	border-radius: 4px;
 	text-decoration: none;
+	text-align: center;
 	background-color: #c0be00;
+	font-family: Georgia;
 }
 
 a{
@@ -39,6 +55,7 @@ a:hover{
 h2{
 	font-family: 'Sigmar One', cursive;
 	color: #9f0325;
+	border-top: 4px solid #9da703;
 }
 
 h3{
@@ -62,11 +79,10 @@ blockquote{
 
 figure{
 	border: 3px solid #9da703;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin: 0;
-	padding: 1em 2em 0.5em 3em;
+	padding: 1em 2em .5em 3em;
 	background-color: #eef6ad;
-	width: 100%;
 }
 
 figcaption{
@@ -85,4 +101,23 @@ dt{
 dd{
 	padding: 0;
 	margin: 0;
+}
+
+.foot{
+	background-color: #e3f703;
+	padding: 0;
+	margin: 0;
+	font-size: .8rem;
+}
+
+.con{
+	color: black;
+}
+
+.wiki{
+	color: #9f0325;
+}
+
+img{
+	width: 100%;
 }
